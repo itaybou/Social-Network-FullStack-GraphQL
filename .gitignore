@@ -6,6 +6,8 @@
 /web/.pnp
 /server/.pnp
 .pnp.js
+/server/README.md
+/web/README.md
 
 .env
 
