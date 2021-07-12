@@ -1,0 +1,78 @@
+.popular-posts {
+  border-radius: 15px;
+  padding-top: 10px;
+  margin-left: 20px;
+  padding-right: 5px;
+  border: 1px solid var(--accent);
+  background: #ffffff;
+}
+
+.trending {
+  border-bottom: 1px solid var(--accent);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.date {
+  color: gray;
+  font-size: 10px;
+  padding: 0;
+}
+
+.date-title {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr;
+  /* border-bottom: 1px solid ${(props) => props.theme.lightAccent}; */
+  width: 100%;
+  padding-top: 5px;
+}
+
+.popular-post-likes {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.title-logo {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  margin-left: 8px;
+}
+
+.popular-post-content {
+  font-weight: 300;
+  font-size: 14px;
+
+  min-width: 0;
+  min-height: 0;
+  word-wrap: break-word;
+  word-break: break-all;
+  max-width: 100%;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  white-space: pre-line;
+}
+
+.popular-post-container {
+  border-bottom: 1px solid var(--accent);
+  margin-bottom: 10px;
+}
+.popular-post-container:hover {
+  background-color: var(--accent);
+}
+
+.popular-post-author-name {
+  font-size: 14px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.posts-link {
+  text-decoration: none;
+  color: black;
+}

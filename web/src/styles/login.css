@@ -1,0 +1,85 @@
+.container {
+  background-color: #fff;
+  width: 40vw;
+  margin: 3em auto;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+input {
+  color: rgb(38, 50, 56);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-color: var(--main-color);
+  padding: 10px 20px;
+  border: none;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  outline: none;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+}
+
+.login-button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+button,
+button span {
+  border-radius: 25px;
+}
+
+button {
+  background-color: var(--main-color);
+  border: 2px solid transparent;
+  color: #fff;
+  box-shadow: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button span {
+  display: block;
+  padding: 0.4em 0.2em;
+  transition: all 0.1s linear;
+  font-size: 15px;
+}
+
+button:hover {
+  background: var(--button-hover-color);
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+
+button:active span {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+button span:focus {
+  outline: 0;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+.login {
+  text-align: center;
+}
+
+.register {
+  text-align: center;
+}

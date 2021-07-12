@@ -1,0 +1,116 @@
+.profile-info {
+  padding-left: 20px;
+  margin-bottom: 0px;
+  border-bottom: 10px solid var(--accent);
+  border-radius: 8px;
+}
+
+.name-title {
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+}
+.name {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.make-profile {
+  display: grid;
+  justify-items: end;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.description {
+  grid-column: 1/3;
+}
+.likes {
+  grid-column: 1;
+}
+
+.date {
+  color: var(--accent);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+.network-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.profile-head {
+  /* width: 105%; */
+  display: grid;
+  grid-template-columns: 0.5fr 5fr 9fr;
+  border-bottom: 1px var(--accent);
+  margin-left: -20px;
+  justify-content: center;
+  align-items: center;
+}
+.followers {
+  display: grid;
+  grid-template-columns: 3fr 3fr 6fr;
+  height: 6rem;
+}
+
+.followers p {
+  flex: 1;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.followers p small {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.followers:hover p:hover {
+  font-size: 28px;
+}
+
+.followers:hover p:hover small {
+  justify-content: end;
+  font-size: 12px;
+}
+
+.website {
+  display: block;
+  font-size: 15px;
+  display: grid;
+  font-weight: 300;
+}
+
+.website-link:link,
+.website-link:visited,
+.website-link:active {
+  font-size: 15px;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: normal;
+  transition: 0.2s;
+}
+
+.website-link:hover {
+  color: var(--main-bright-color);
+}
+
+.avatar-update {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}

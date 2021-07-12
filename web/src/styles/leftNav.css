@@ -1,0 +1,52 @@
+.leftNav {
+  margin-right: 20px;
+  height: 100%;
+}
+
+.profile {
+  position: relative;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+}
+
+.featherIcon {
+  @media only screen and (min-width: 1250px) {
+    display: none;
+  }
+}
+
+.title {
+  margin-left: 15px;
+  @media only screen and (max-width: 1250px) {
+    display: none;
+  }
+}
+
+.icon-links {
+  display: grid;
+  @media only screen and (max-width: 1200px) {
+    grid-template-columns: 0.5fr;
+    display: none;
+  }
+}
+
+.menu-item {
+  font-size: 20px;
+  color: rgb(17, 17, 17);
+  @media only screen and (max-width: 1200px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 25px;
+  width: 70%;
+}
+.menu-item:hover {
+  /* color: ${(props) => props.theme.primary}; */
+  background: #ee555529;
+  @media only screen and (max-width: 1200px) {
+    /* color: ${(props) => props.theme.primary}; */
+    background: transparent;
+  }
+}

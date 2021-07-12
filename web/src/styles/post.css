@@ -1,0 +1,55 @@
+.post-button {
+  width: 25%;
+  justify-self: end;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  font-size: 15px;
+  border: 1px solid var(--main-color);
+}
+.post-button:hover {
+  background-color: white;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+.post-button:focus {
+  outline: none;
+}
+
+.post-text {
+  border: none;
+}
+
+.post-text:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.exit {
+  color: var(--main-color);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.header {
+  border-bottom: 1px solid var(--accent);
+
+  margin-top: 10px;
+}
+.footer {
+  border-bottom: 1px solid var(--accent);
+  width: 100%;
+  padding: 0;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.comment-post-section {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  margin-top: 10px;
+}
